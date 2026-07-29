@@ -42,7 +42,7 @@ With a ${rating.toFixed(1)}/5 rating from ${formatPlayers(players)} players, ${t
       'Keep moving at all times — a stationary target is dramatically easier to hit than a moving one, and most action game enemies are designed to punish players who stop.',
       'Every enemy has a tell before attacking. Investing time in learning these patterns converts difficult sections into manageable, predictable sequences.',
       'Prioritise ranged and high-damage enemies first when given a choice; close-range threats are easier to handle when the field is less crowded.',
-      'If a section is blocking your progress after multiple attempts, try a completely different approach — most action games have several valid strategies for each challenge, and the one you've been using may simply not suit your playstyle.',
+      "If a section is blocking your progress after multiple attempts, try a completely different approach — most action games have several valid strategies for each challenge, and the one you've been using may simply not suit your playstyle.",
     ],
   },
 
