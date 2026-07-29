@@ -62,12 +62,20 @@
     @apply glass rounded-2xl shadow-glass;
   }
 
+  .glass-hover {
+    @apply glass-card hover:bg-white/8 transition-all duration-300 hover:shadow-lg;
+  }
+
   .gradient-text {
     @apply bg-gradient-to-r from-gamesooty-purple via-gamesooty-cyan to-gamesooty-pink bg-clip-text text-transparent;
   }
 
   .neon-border {
     @apply border border-gamesooty-purple/30 shadow-neon;
+  }
+
+  .neon-glow {
+    @apply shadow-neon hover:shadow-neon transition-all duration-300;
   }
 
   .btn-primary {
@@ -85,8 +93,24 @@
     @apply text-2xl md:text-3xl font-bold tracking-tight;
   }
 
+  .section-subtitle {
+    @apply text-base md:text-lg text-white/60 font-medium;
+  }
+
   .game-grid {
     @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-4;
+  }
+
+  .card-lift {
+    @apply hover:animate-lift-hover;
+  }
+
+  .gradient-border {
+    @apply relative p-0.5 rounded-2xl bg-gradient-to-r from-gamesooty-purple via-gamesooty-cyan to-gamesooty-pink;
+  }
+
+  .blur-background {
+    @apply backdrop-blur-2xl bg-gradient-to-br from-white/10 to-white/5;
   }
 }
 

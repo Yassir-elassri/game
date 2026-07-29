@@ -8,6 +8,8 @@ import { Hero } from "@/components/games/Hero";
 import { GameSection } from "@/components/games/GameSection";
 import { ContinuePlayingSection } from "@/components/games/ContinuePlayingSection";
 import { CategoryGrid } from "@/components/games/CategoryGrid";
+import { WhyChooseUs } from "@/components/games/WhyChooseUs";
+import { DailyChallenge } from "@/components/games/DailyChallenge";
 import {
   getTrendingGames,
   getNewGames,
@@ -29,6 +31,10 @@ export default function HomePage() {
       <Hero featuredGame={featured} />
 
       <ContinuePlayingSection />
+
+      <DailyChallenge game={featured} />
+
+      <WhyChooseUs />
 
       <GameSection
         id="trending"
