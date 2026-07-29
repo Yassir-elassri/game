@@ -10,10 +10,10 @@ export function CookieBanner() {
   useEffect(() => {
     const consent = localStorage.getItem(STORAGE_KEY);
     if (!consent) {
-      // Small delay so it doesn't flash on first render
       const t = setTimeout(() => setVisible(true), 800);
       return () => clearTimeout(t);
     }
+    return undefined;
   }, []);
 
   const accept = () => {
