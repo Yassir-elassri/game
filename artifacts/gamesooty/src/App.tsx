@@ -3,6 +3,7 @@ import { ContinuePlayingProvider } from '@/lib/context/ContinuePlayingContext';
 import { GradientBackground } from '@/components/effects/GradientBackground';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
+import { CookieBanner } from '@/components/layout/CookieBanner';
 import HomePage from '@/pages/HomePage';
 import GamePage from '@/pages/GamePage';
 import CategoryPage from '@/pages/CategoryPage';
@@ -43,6 +44,7 @@ function App() {
           <Router />
         </main>
         <Footer />
+        <CookieBanner />
       </WouterRouter>
     </ContinuePlayingProvider>
   );
