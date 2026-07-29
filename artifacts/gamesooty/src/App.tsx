@@ -14,6 +14,7 @@ import PrivacyPage from '@/pages/PrivacyPage';
 import TermsPage from '@/pages/TermsPage';
 import CookiesPage from '@/pages/CookiesPage';
 import DmcaPage from '@/pages/DmcaPage';
+import TipsPage from '@/pages/TipsPage';
 import NotFound from '@/pages/not-found';
 
 function Router() {
@@ -29,6 +30,7 @@ function Router() {
       <Route path="/terms" component={TermsPage} />
       <Route path="/cookies" component={CookiesPage} />
       <Route path="/dmca" component={DmcaPage} />
+      <Route path="/tips" component={TipsPage} />
       <Route component={NotFound} />
     </Switch>
   );

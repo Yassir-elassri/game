@@ -17,6 +17,7 @@ const footerLinks = {
   legal: [
     { href: "/cookies", label: "Cookies Policy" },
     { href: "/dmca", label: "DMCA" },
+    { href: "/tips", label: "Gaming Tips & FAQ" },
   ],
 };
 
