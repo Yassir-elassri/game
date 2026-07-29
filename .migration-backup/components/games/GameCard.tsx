@@ -24,13 +24,13 @@ export function GameCard({ game, size = "md", showMeta = true }: GameCardProps) 
 
   return (
     <motion.div
-      whileHover={{ y: -6, scale: 1.02 }}
-      whileTap={{ scale: 0.98 }}
+      whileHover={{ y: -8, scale: 1.04 }}
+      whileTap={{ scale: 0.96 }}
       transition={{ type: "spring", stiffness: 400, damping: 25 }}
-      className="group"
+      className="group h-full"
     >
-      <Link href={`/game/${game.slug}`} className="block">
-        <div className="relative glass-card overflow-hidden neon-border hover:shadow-neon transition-shadow duration-300">
+      <Link href={`/game/${game.slug}`} className="block h-full">
+        <div className="relative glass-card overflow-hidden neon-border hover:shadow-neon transition-all duration-300 h-full group-hover:border-gamesooty-cyan/60">
           <div className={`relative ${sizeClasses[size]} overflow-hidden`}>
             <Image
               src={getThumbnailUrl(game.thumbnail)}

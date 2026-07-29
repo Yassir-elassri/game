@@ -24,7 +24,7 @@ export function GamePlayer({ game }: GamePlayerProps) {
   };
 
   return (
-    <div className={`relative ${lightsOn ? "" : "brightness-50"}`}>
+    <div id="player" className={`relative ${lightsOn ? "" : "brightness-50"}`}>
       <div className="glass-card overflow-hidden neon-border">
         {!loaded && (
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-gamesooty-surface z-10 min-h-[400px] md:min-h-[560px]">

@@ -32,15 +32,14 @@ export function Hero({ featuredGame }: HeroProps) {
               268+ free games · No download needed
             </motion.div>
 
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-6">
-              <span className="gradient-text">{SITE.name}</span>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-6 text-balance">
+              <span className="gradient-text">Play Instantly.</span>
               <br />
-              <span className="text-white">Play. Compete. Repeat.</span>
+              <span className="text-white">Challenge Yourself.</span>
             </h1>
 
-            <p className="text-lg text-white/60 max-w-lg mb-8 leading-relaxed">
-              Dive into the ultimate free gaming universe. Action, puzzles, sports,
-              and more — all instantly playable in your browser.
+            <p className="text-lg text-white/60 max-w-lg mb-8 leading-relaxed text-balance">
+              Discover 268+ premium free games instantly playable in your browser. No downloads, no signups. Pure gaming, pure fun.
             </p>
 
             <div className="flex flex-wrap gap-4">
